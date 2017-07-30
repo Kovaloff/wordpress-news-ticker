@@ -1,0 +1,108 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.add-field {
+    margin-top: 10px;
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    color: #ffffff;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.add-field:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+}
+
+.multi-fields,.multi-field{margin-top:1em;}
+
+.textbox {
+    border: 1px solid #848484;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    outline:0;
+    height:25px;
+    width: 275px;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.remove-field {
+    background: rgb(202, 60, 60); /* this is a maroon */
+    color: white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+#lnt-shortcode-copy {
+    background: #23282d;
+    border-top: 10px solid #0073aa;
+    padding: 10px;
+    color: #eee;
+}
+#lnt-shortcode-copy h3 {
+    color: #0073aa;
+}
+#lnt-code table{
+    width : 100%;
+    text-align: center;
+}
+.lnt-list-buttons {
+    text-align: right;
+}
+
+.lnt-heading {
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #e6e6e6;
+    padding: 10px 20px 10px 10px;
+}
+
+.lnt-clearfix:before,
+.lnt-clearfix:after {
+    display: table;
+    border-spacing: 0;
+    content: " ";
+}
+
+.lnt-clearfix:after {
+    clear: both;
+}
+.lnt-heading h3 {
+    float: left;
+    text-transform: uppercase;
+    color: #333333;
+    padding: 0 !important;
+    margin: 2px 2px 2px 0;
+}
+
+.lnt-list-item {
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.lnt-subheading {
+    font-size: 12px;
+    line-height: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #333333;
+    margin-bottom: 2px; }
